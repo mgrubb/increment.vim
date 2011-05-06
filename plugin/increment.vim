@@ -125,6 +125,11 @@ fun! s:Dec2Oct(b10)
     return oct
 endfun "}}}
 
+" IncLastVal: returns the last increment value {{{
+function! IncLastVal()
+	return s:val - 1
+endfun "}}}
+
 " ---------------------------------------------------------------------
 " Increment: main function in this plugin
 function! Increment(...) range
