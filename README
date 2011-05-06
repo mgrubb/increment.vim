@@ -1,5 +1,7 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=842
 
+This repository also contains a function not in the original, IncLastVal().
+
 This is a handy plugin that makes easy replacing your favorite pattern ("@" by default) with a sequence of incremented values using the "Inc" command.
 
 Examples:
